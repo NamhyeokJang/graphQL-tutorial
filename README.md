@@ -1,10 +1,8 @@
 # NodeJS + graphQL Example
----
 
 간단한 GraphQL을 이용한 예제 
 
 ## Get Started
----
 ```
 # install dependencies
 yarn add express express-graphql graphql
@@ -20,7 +18,6 @@ http://localhost:3000/graphql
 
 
 ## Table
----
 ### Authors
 | Field | Type |
 |-------|------|
@@ -36,7 +33,6 @@ http://localhost:3000/graphql
 
 
 ## Example Operations
----
 #### Get all authors
 ```
 {
