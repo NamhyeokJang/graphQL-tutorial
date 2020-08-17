@@ -1,9 +1,9 @@
-#NodeJS + graphQL Example
+# NodeJS + graphQL Example
 ---
 
 간단한 GraphQL을 이용한 예제 
 
-#Get Started
+## Get Started
 ---
 ```
 # install dependencies
@@ -19,15 +19,15 @@ http://localhost:3000/graphql
 ```
 
 
-#Table
+## Table
 ---
-#Authors
+### Authors
 | Field | Type |
 |-------|------|
 | id | int |
 | name | string |
 
-#Books
+### Books
 | Field | Type |
 |-------|------|
 | id | int |
@@ -35,9 +35,9 @@ http://localhost:3000/graphql
 | authorId | int |
 
 
-#Example Operations
+## Example Operations
 ---
-Get all authors
+#### Get all authors
 ```
 {
   authors {
@@ -51,7 +51,7 @@ Get all authors
 }
 ```
 
-Get an author by author's id
+#### Get an author by author's id
 ```
 {
   author(id: 1){
@@ -65,7 +65,7 @@ Get an author by author's id
 }
 ```
 
-Get all Books 
+#### Get all Books 
 ```
 {
   books {
@@ -79,7 +79,7 @@ Get all Books
 }
 ```
 
-Get a book by book's id
+#### Get a book by book's id
 ```
 {
   book(id: 1){
@@ -93,7 +93,7 @@ Get a book by book's id
 }
 ```
 
-Add a new author
+#### Add a new author
 ```
 mutation{
   addAuthor(name: "new Author") {
@@ -103,7 +103,7 @@ mutation{
 }
 ```
 
-Add a new book
+#### Add a new book
 ```
 mutation{
   addBook(name: "new Book", authorId: 1){
