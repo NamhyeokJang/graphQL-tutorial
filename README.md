@@ -3,7 +3,7 @@
 
 간단한 GraphQL을 이용한 예제 
 
-###Get Started
+#Get Started
 ---
 ```
 # install dependencies
@@ -19,15 +19,15 @@ http://localhost:3000/graphql
 ```
 
 
-###Table
+#Table
 ---
-######Authors
+#Authors
 | Field | Type |
 |-------|------|
 | id | int |
 | name | string |
 
-######Books
+#Books
 | Field | Type |
 |-------|------|
 | id | int |
@@ -35,7 +35,7 @@ http://localhost:3000/graphql
 | authorId | int |
 
 
-###Example Operations
+#Example Operations
 ---
 Get all authors
 ```
